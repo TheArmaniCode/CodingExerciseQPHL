@@ -1,10 +1,12 @@
 #initialise i
 i = ""
+#initialise boolean to check program execution
 exit = False
-#create function to check validation
+#create validation process inside while loop
 while(exit == False):
     #initalise boolean to check correct value
     correctValue = False
+    #input value & statement
     i = input("Please input a value: ")
     #break if exit command entered
     if (i == "Exit"):
